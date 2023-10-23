@@ -1,7 +1,7 @@
 const express = require("express");
 const morgan = require("morgan");
 const mongoose = require("mongoose");
-const blogRoute = require("./routes/blogRoutes");
+const blogRoute = require("./routes/blog");
 
 //express app
 const app = express();
